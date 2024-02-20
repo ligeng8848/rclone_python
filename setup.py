@@ -6,11 +6,11 @@ with open("README.md", "r") as f:
     long_description = f.read()
 
 setup(
-    name="rclone-python",
+    name="rclone-python-lp-asset",
     version=VERSION,
     description="A python wrapper for rclone.",
     author="Johannes Gundlach",
-    url="https://github.com/Johannes11833/rclone_python",
+    url="https://github.com/ligeng8848/rclone_python",
     install_requires=["rich"],
     packages=["rclone_python"],
     long_description=long_description,
